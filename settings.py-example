@@ -1,0 +1,2 @@
+MXCUBE_CONFIG_DIR="/tmp/mxcube/conf"
+MXCUBE_RESTART_COMMAND="supervisorctl restart mxcube"

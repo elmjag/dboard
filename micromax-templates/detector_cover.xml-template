@@ -1,0 +1,7 @@
+<device class="TangoShutter">
+  <tangoname>{detector_cover_device}</tangoname>
+  <command type="tango" name="Open">Open</command>
+  <command type="tango" name="Close">Close</command>
+  <channel type="tango" name="State" polling="1000">State</channel>
+  <values>dict(OPEN="OPEN", CLOSED="CLOSE")</values>
+</device>

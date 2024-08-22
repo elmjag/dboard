@@ -1,0 +1,15 @@
+<equipment class="JungfrauDetector">
+  <detector_device>b312a-eh/dia/det-02</detector_device>
+  <object href="/detector_distance" role="detector_distance"/>
+  <object href="/detector_cover" role="cover"/>
+  <px>0.075</px>
+  <py>0.075</py>
+  <width>3108</width>
+  <height>3262</height>
+  <beam>
+    <ax>0</ax>
+    <ay>0</ay>
+    <bx>1682.8</bx>
+    <by>2052.2</by>
+  </beam>
+</equipment>

@@ -1,0 +1,26 @@
+<equipment class="MAXIV.BioMAX.BIOMAXEiger">
+  <type>Hybrid pixel direct counting device</type>
+  <model>EIGER</model>
+  <mode>9M</mode>
+  <manufacturer>DECTRIS</manufacturer>
+  <object href="/detector_distance" role="detector_distance"/>
+  <object href="/detector_cover" role="cover"/>
+  <px>0.00007500000356230885</px>
+  <py>0.00007500000356230885</py>
+  <file_suffix>h5</file_suffix>
+  <default_exposure_time>0.05</default_exposure_time>
+  <default_compression>bslz4</default_compression>
+  <!--buffer limit for allowing datacollection, unit KB-->
+  <buffer_limit>50000</buffer_limit>
+  <detector_device>b312a-eh/dia/det-01</detector_device>
+  <width>3108</width>
+  <height>3262</height>
+  <!-- minimum change in energy (in eV) to trigger a detector re-config-->
+  <min_trigger_energy_change>1</min_trigger_energy_change>
+  <beam>
+    <ax>0.0470</ax>
+    <ay>-0.0148</ay>
+    <bx>1562.3</bx>
+    <by>1687.0</by>
+  </beam>
+</equipment>

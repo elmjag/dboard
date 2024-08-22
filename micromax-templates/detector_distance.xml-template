@@ -1,0 +1,7 @@
+<device class="SardanaMotor">
+  <actuator_name>{detector_distance_motor}</actuator_name>
+  <motor_name>{detector_distance_motor}</motor_name>
+  <taurusname>{detector_distance_motor}</taurusname>
+  <username>Detector distance</username>
+  <default_limits>(175, 930)</default_limits>
+</device>
