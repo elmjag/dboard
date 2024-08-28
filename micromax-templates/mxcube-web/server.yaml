@@ -1,0 +1,51 @@
+server:
+  SECRET_KEY: "ASECRETKEY"
+  SECURITY_PASSWORD_SALT: "ASALT"
+  SESSION_TYPE: "redis"
+  SESSION_KEY_PREFIX: "mxcube:session:"
+  DEBUG: False
+  STREAMED_VIDEO: True
+  SESSION_PERMANENT: True
+  PERMANENT_SESSION_LIFETIME: 6000
+
+  ALLOWED_CORS_ORIGINS:
+    # localhost
+    - "http://localhost:8081"
+    - "ws://localhost:8081"
+    - "http://localhost:3000"
+    - "ws://localhost:3000"
+    # b-v-micromax-test-0
+    - "http://b-v-micromax-test-0"
+    - "ws://b-v-micromax-test-0"
+    - "https://test-mxcube-micromax.maxiv.lu.se"
+    - "ws://test-mxcube-micromax.maxiv.lu.se"
+    - "http://b-v-micromax-test-0.maxiv.lu.se"
+    - "ws://b-v-micromax-test-0.maxiv.lu.se"
+    - "http://b-v-micromax-test-0:8081"
+    - "ws://b-v-micromax-test-0:8081"
+    # b-v-micromax-web-0
+    - "http://b-v-micromax-web-0"
+    - "ws://b-v-micromax-web-0"
+    - "http://b-v-micromax-web-0.maxiv.lu.se"
+    - "ws://b-v-micromax-web-0.maxiv.lu.se"
+    - "http://b-v-micromax-web-0:8081"
+    - "ws://b-v-micromax-web-0:8081"
+    # mxcube-micromax
+    - "http://mxcube-micromax"
+    - "ws://mxcube-micromax"
+    - "https://mxcube-micromax.maxiv.lu.se"
+    - "http://mxcube-micromax.maxiv.lu.se"
+    - "ws://mxcube-micromax.maxiv.lu.se"
+    - "http://mxcube-micromax:8081"
+    - "ws://mxcube-micromax:8081"
+
+mxcube:
+  VIDEO_FORMAT: MJPEG
+
+  usermanager:
+    class: UserManager
+    inhouse_is_staff: True
+    users:
+      -
+        username: user
+        role: staff

@@ -1,0 +1,5 @@
+<object class="SampleView">
+  <device role="diffractometer" hwrid="/md3"/>
+  <device role="aperture" hwrid="udiff_aperturemot"/>
+  <device role="camera" hwrid="md3_camera"/>
+</object>

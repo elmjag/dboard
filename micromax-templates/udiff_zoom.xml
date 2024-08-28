@@ -1,0 +1,8 @@
+<object class="MAXIV.MD3Zoom">
+  <username>zoom</username>
+  <actuator_name>zoom</actuator_name>
+  <motor_name>zoom</motor_name>
+  <exporter_address>b-micromax-md3-pc:9001</exporter_address>
+  <value_channel_name>CoaxialCameraZoomValue</value_channel_name>
+  <level>8</level>
+</object>

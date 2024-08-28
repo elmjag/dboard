@@ -1,0 +1,7 @@
+<device class="ExporterMotor">
+  <username>PhiZ</username>
+  <exporter_address>b-micromax-md3-pc:9001</exporter_address>
+  <motor_name>AlignmentZ</motor_name>
+  <actuator_name>AlignmentZ</actuator_name>
+  <unit>1e-5</unit>
+</device>

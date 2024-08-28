@@ -1,0 +1,9 @@
+<device class="MAXIV.MicroMAX.MICROMAXLight">
+  <username>BackLight</username>
+  <motor_name>BackLight</motor_name>
+  <actuator_name>BackLight</actuator_name>
+  <exporter_address>b-micromax-md3-pc:9001</exporter_address>
+  <position_suffix>Factor</position_suffix>
+  <channel type="exporter" name="chanLightIsOn">BackLightIsOn</channel>
+  <limits>0, 2</limits>
+</device>

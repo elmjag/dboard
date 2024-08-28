@@ -1,0 +1,6 @@
+<device class="abstract.AbstractResolution">
+  <username>Resolution</username>
+  <object hwrid="/detector_distance" role="dtox"/>
+  <object href="/energy" role="energy"/>
+  <object href="/detector" role="detector"/>
+</device>

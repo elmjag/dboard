@@ -1,0 +1,8 @@
+<device class="TangoShutter">
+  <username>SafetyShutter</username>
+  <tangoname>b312a-o07/pss/bs-01</tangoname>
+  <command type="tango" name="Open">Open</command>
+  <command type="tango" name="Close">Close</command>
+  <channel type="tango" name="State" polling="1000">State</channel>
+  <values>{"OPEN": "OPEN", "CLOSED": "CLOSE", "MOVING" : "MOVING"}</values>
+</device>

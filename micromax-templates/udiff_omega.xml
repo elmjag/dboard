@@ -1,0 +1,9 @@
+<device class="ExporterMotor">
+  <username>Omega</username>
+  <exporter_address>b-micromax-md3-pc:9001</exporter_address>
+  <motor_name>Omega</motor_name>
+  <unit>1e-3</unit>
+  <GUIstep>90</GUIstep>
+  <actuator_name>Omega</actuator_name>
+  <resolution>0.2</resolution>
+</device>

@@ -1,0 +1,4 @@
+<device class="MAXIV.MD3UpCamera">
+  <tangoname>tango://b-micromax-md3-pc:9999/md/oav/bzoom#dbase=no</tangoname>
+  <interval>52</interval>
+</device>

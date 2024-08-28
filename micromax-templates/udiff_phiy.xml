@@ -1,0 +1,8 @@
+<device class="ExporterMotor">
+  <username>PhiY</username>
+  <exporter_address>b-micromax-md3-pc:9001</exporter_address>
+  <motor_name>AlignmentY</motor_name>
+  <actuator_name>AlignmentY</actuator_name>
+  <unit>1e-5</unit>
+  <direction> -1</direction>
+</device>

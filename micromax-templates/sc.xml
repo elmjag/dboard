@@ -1,0 +1,7 @@
+<equipment class="ISARA">
+  <username>Isara2</username>
+  <tangoname>b312-e/ctl/sm-01</tangoname>
+  <read_datamatrix>False</read_datamatrix>
+  <unipuck_tool>5</unipuck_tool>
+  <no_of_lids>1</no_of_lids>
+</equipment>

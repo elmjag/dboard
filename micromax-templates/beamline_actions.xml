@@ -1,0 +1,13 @@
+<object class="MAXIV.MicroMAX.MICROMAXBeamlineActions">
+  <doorname>micromax/door/01</doorname>
+  <command type="sardana" name="beamtime_end">beamtime_end</command>
+  <command type="sardana" name="beamtime_start">beamtime_start</command>
+  <command type="sardana" name="open_beamline_shutters">open_beamline_shutters</command>
+  <commands>[
+    {"type": "controller", "name": "Prepare Open Hutch", "command": "HardwareObjects.MAXIV.MicroMAX.MICROMAXBeamlineActions.PrepareOpenHutch"},
+    {"type": "controller", "name": "Close Detector Cover", "command": "HardwareObjects.MAXIV.MicroMAX.MICROMAXBeamlineActions.CloseDetectorCover"},
+    {"type": "controller", "name": "Open Detector Cover", "command": "HardwareObjects.MAXIV.MicroMAX.MICROMAXBeamlineActions.OpenDetectorCover"},
+    {"type": "controller", "name": "Measure Flux", "command": "HardwareObjects.MAXIV.MicroMAX.MICROMAXBeamlineActions.MeasureFlux"},
+    ]
+  </commands>
+</object>

@@ -1,0 +1,5 @@
+<device class="MAXIV.BioMAX.BIOMAXEnergy">
+  <object href="/energy_motor" role="energy"/>
+  <default_energy>12.666</default_energy>
+  <tunable_energy>False</tunable_energy>
+</device>

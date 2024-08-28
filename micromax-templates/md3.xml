@@ -1,0 +1,66 @@
+<object class="MAXIV.MicroMAX.MICROMAXMD3">
+  <username>MD3UP</username>
+  <exporter_address>b-micromax-md3-pc:9001</exporter_address>
+  <used_channels>["CoaxCamScaleX","CoaxCamScaleY","CameraExposure", "State","TransferMode","SampleIsLoaded","HeadType","CurrentPhase","ScanStartAngle","ScanExposureTime","ScanRange","ScanNumberOfFrames", "AlignmentTablePosition", "BeamstopPosition", "BeamstopZPosition", "BeamstopDistancePosition", "ScintillatorPosition", "ScintillatorVerticalPosition", "CapillaryPosition", "AperturePosition", "CapillaryVerticalPosition", "LastTaskInfo", "SampleHolderLength", "PlateLocation"]</used_channels>
+  <channel type="exporter" name="AperturePosition">AperturePosition</channel>
+  <channel type="exporter" name="CoaxCamScaleX">CoaxCamScaleX</channel>
+  <channel type="exporter" name="CoaxCamScaleY">CoaxCamScaleY</channel>
+  <channel type="exporter" name="CameraExposure">CameraExposure</channel>
+  <channel type="exporter" name="State">State</channel>
+  <channel type="exporter" name="TransferMode">TransferMode</channel>
+  <channel type="exporter" name="HeadType">HeadType</channel>
+  <channel type="exporter" name="SampleIsLoaded">SampleIsLoaded</channel>
+  <channel type="exporter" name="CurrentPhase">CurrentPhase</channel>
+  <channel type="exporter" name="ScanStartAngle">ScanStartAngle</channel>
+  <channel type="exporter" name="ScanExposureTime">ScanExposureTime</channel>
+  <channel type="exporter" name="ScanRange">ScanRange</channel>
+  <channel type="exporter" name="ScanNumberOfFrames">ScanNumberOfFrames</channel>
+  <channel type="exporter" name="AlignmentTablePosition">AlignmentTablePosition</channel>
+  <channel type="exporter" name="BeamstopPosition">BeamstopPosition</channel>
+  <channel type="exporter" name="BeamstopZPosition">BeamstopZPosition</channel>
+  <channel type="exporter" name="BeamstopDistancePosition">BeamstopDistancePosition</channel>
+  <channel type="exporter" name="ScintillatorPosition">ScintillatorPosition</channel>
+  <channel type="exporter" name="ScintillatorVerticalPosition">ScintillatorVerticalPosition</channel>
+  <channel type="exporter" name="SampleHolderLength">SampleHolderLength</channel>
+  <channel type="exporter" name="CapillaryPosition">CapillaryPosition</channel>
+  <channel type="exporter" name="CapillaryVerticalPosition">CapillaryVerticalPosition</channel>
+  <channel type="exporter" name="LastTaskInfo">LastTaskInfo</channel>
+  <channel type="exporter" name="PlateLocation">PlateLocation</channel>
+  <used_commands>["startSetPhase","startScanEx","startScan4DEx","startRasterScan","startSimultaneousMoveMotors", "getTaskInfo", "isTaskRunning", "abort","saveCentringPositions","saveApertureBeamPosition", "startMoveOrganDevices", "restart", "isTaskRunning", "checkTaskResult", "getTaskInfo", "startMovePlateToShelf", "getMotorDynamicLimits", "getBeamstopPosition", "setBeamstopPosition"]</used_commands>
+  <command type="exporter" name="startSetPhase">startSetPhase</command>
+  <command type="exporter" name="startScanEx">startScanEx</command>
+  <command type="exporter" name="startScan4DEx">startScan4DEx</command>
+  <command type="exporter" name="startRasterScan">startRasterScan</command>
+  <command type="exporter" name="startSimultaneousMoveMotors">startSimultaneousMoveMotors</command>
+  <command type="exporter" name="abort">abort</command>
+  <command type="exporter" name="saveCentringPositions">saveCentringPositions</command>
+  <command type="exporter" name="saveApertureBeamPosition">saveApertureBeamPosition</command>
+  <command type="exporter" name="startMoveOrganDevices">startMoveOrganDevices</command>
+  <command type="exporter" name="restart">restart</command>
+  <command type="exporter" name="isTaskRunning">isTaskRunning</command>
+  <command type="exporter" name="checkTaskResult">checkTaskResult</command>
+  <command type="exporter" name="getTaskInfo">getTaskInfo</command>
+  <command type="exporter" name="getMotorDynamicLimits">getMotorDynamicLimits</command>
+  <command type="exporter" name="startMovePlateToShelf">startMovePlateToShelf</command>
+  <command type="exporter" name="getBeamstopPosition">getBeamstopPosition</command>
+  <command type="exporter" name="setBeamstopPosition">setBeamstopPosition</command>
+  <object role="phi" hwrid="./udiff_omega"/>
+  <object role="phiy" hwrid="./udiff_phiy"/>
+  <object role="phiz" hwrid="./udiff_phiz"/>
+  <object role="sampx" hwrid="./udiff_sampx"/>
+  <object role="sampy" hwrid="./udiff_sampy"/>
+  <object role="focus" hwrid="./udiff_phix"/>
+  <object role="frontlight" hwrid="./udiff_frontlight"/>
+  <object role="backlight" hwrid="./udiff_backlight"/>
+  <centring_motors>["phi","focus","phiz","phiy","zoom","sampx","sampy"]</centring_motors>
+  <object role="zoom" href="./udiff_zoom"/>
+  <object role="FrontLightSwitch" href="./udiff_frontlightswitch"/>
+  <object role="BackLightSwitch" href="./udiff_backlightswitch"/>
+  <nstate_equipment>
+    <object role="aperture" href="udiff_aperturemot"/>
+  </nstate_equipment>
+  <zoom_centre>{"x": 613,"y": 513}</zoom_centre>
+  <object href="/centring" role="centring"/>
+  <phase_list>["Transfer","Centring","BeamLocation", "DataCollection", "Unknown"]</phase_list>
+  <chip_definition_file>oxford_chip_def.json</chip_definition_file>
+</object>

@@ -1,0 +1,19 @@
+<object class="MAXIV.MAXIVISPyBClient">
+  <object hwrid="/lims_rest" role="lims_rest"/>
+  <ws_root>
+    http://ispyb.maxiv.lu.se:8080/ispyb/ispyb-ws/ispybWS/
+  </ws_root>
+  <base_url>
+    https://ispyb.maxiv.lu.se
+  </base_url>
+  <base_result_url>
+    https://ispyb.maxiv.lu.se
+  </base_result_url>
+  <ws_username>ispybmxcube</ws_username>
+  <ws_password>nMEtOkCLWrM1</ws_password>
+  <authServerType>ispyb</authServerType>
+  <loginTranslate>false</loginTranslate>
+  <loginType>user</loginType>
+  <object role="session" href="/session"/>
+  <proxy_address>http://proxy.maxiv.lu.se:8888</proxy_address>
+</object>

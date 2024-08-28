@@ -1,0 +1,8 @@
+<device class="ExporterMotor">
+  <username>PhiX</username>
+  <exporter_address>b-micromax-md3-pc:9001</exporter_address>
+  <motor_name>AlignmentX</motor_name>
+  <actuator_name>AlignmentX</actuator_name>
+  <GUIstep>0.1</GUIstep>
+  <unit>1e-3</unit>
+</device>

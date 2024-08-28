@@ -1,0 +1,9 @@
+<device class="MAXIV.MicroMAX.MICROMAXLight">
+  <username>FrontLight</username>
+  <motor_name>FrontLight</motor_name>
+  <actuator_name>FrontLight</actuator_name>
+  <exporter_address>b-micromax-md3-pc:9001</exporter_address>
+  <position_suffix>Factor</position_suffix>
+  <channel type="exporter" name="chanLightIsOn">FrontLightIsOn</channel>
+  <limits>0, 2</limits>
+</device>
